@@ -1,7 +1,12 @@
-form .ng-valid {
-  border-bottom: 5px solid green !important;
+.text-muted {
+  margin-top: 0.25rem;
+  font-size: 0.875em;
+  position: relative;
 }
 
-form .ng-invalid {
-  border-bottom: 5px solid red !important;
+.loading {
+  height: 100px;
+  position: absolute;
+  right: 0;
+  transform: translate(+20%, calc(-100% + 27.5px));
 }
